@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '2.0.2'
+}
+
+group 'me.piggypiglet'
+version '1.0.0'
+mainClassName = 'me.piggypiglet.hashgrabber.HashGrabber'
+sourceCompatibility = 1.8
+
+compileJava.options.encoding = 'UTF-8'
